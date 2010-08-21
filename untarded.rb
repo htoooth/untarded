@@ -17,11 +17,11 @@ end
 
 # where the magic happens
 if extension == '.bz2'
-	`tar -jxvf #{filename}`
+  `tar -jxvf #{filename}`
 elsif extension == '.gz'
-	`tar -zxvf #{filename}`
+  `tar -zxvf #{filename}`
 else
-	puts 'I have no idea what to do with this file.'
+  puts 'I have no idea what to do with this file.'
 end
 
 
