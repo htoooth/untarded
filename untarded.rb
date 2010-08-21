@@ -21,7 +21,7 @@ if extension == '.bz2'
 elsif extension == '.gz'
 	`tar -zxvf #{filename}`
 else
-	'I have no idea what to do with this file.'
+	puts 'I have no idea what to do with this file.'
 end
 
 
