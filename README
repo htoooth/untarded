@@ -1,0 +1,75 @@
+##############################################################################
+#                                                                            #
+#                   Untarded by Jason Ormand aka okor                        #
+#                                                                            #
+#                  ** unpacking tar balls made easy **                       #
+#                                                                            #
+##############################################################################
+
+
+  
+
+Why:
+
+  WTF?! is all this tar -zb998asdf8 file.tar.gz madness?
+
+  Untarring a file should be ridiculously easy.
+
+
+
+INSTALL:
+  
+  1. Just take the 'untarded.rb' file and put it some where.
+  
+  2. Edit your .bashrc and add an alias with the untarded.rb path
+  
+       Example: alias untarded='ruby ~/scripts/untarded/untarded.rb'
+    
+  3. Install ruby if you don't alread have it.
+    
+       sudo apt-get install ruby
+
+
+Untarded:
+  
+  Example useage (.gz):
+    
+    $ untarded filename.tar.gz
+    
+  Example useage (.bz):
+  
+    $ untarded filename.tar.bz
+    
+  freakin' a.
+
+
+Q&A:
+
+  Q: This just un-tar's files. You're an idiot.
+  A: Well, that wasn't really a question, but yeah, I'm always un-taring 
+     and not tarring so that wasn't a goal. Plus, tar's arguments seem 
+     a lot less silly when tarrring.
+     
+  Q: This sucks, I can't do something.
+  A: Also not a question, but you should Submit a bug or Request a feature.
+     
+  Q: Can you passed other arguments, when untaring?
+  A: No.
+  
+  Q: Haven't you heard of unp, that python script that unpacks anything.
+  A: Sure did. A little after I wrote this.
+  
+  Q: How does Untarded work?
+  A: It just builds the silly commands, and hands them to tar.
+  
+
+Want:
+
+  - Feature requests
+  - Someone to roll this into a deb, starting with Ubuntu 10.04 Lucid Lynx
+  - PPA ?
+  - Rewrite in bash for wankers
+  - Testing + subsuquent tsunami of bugs
+  - Collaboration. Help out and write some code (ruby or bash).
+  
+  
